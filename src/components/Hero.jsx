@@ -17,22 +17,23 @@ function Hero() {
       </p>
       
       {/* Action Buttons */}
-      <div className="relative flex flex-wrap justify-center gap-4 mt-6">
-        <a
-          href="#"
-          className="px-6 py-3 text-lg font-semibold rounded-full bg-blue-600 text-white shadow-lg transition duration-300 transform hover:scale-110 hover:bg-blue-800"
-        >
-          🚀 Download
-        </a>
-        <a
-          href="#docs"
-          className="px-6 py-3 text-lg font-semibold rounded-full bg-purple-600 text-white shadow-lg transition duration-300 transform hover:scale-110 hover:bg-purple-800"
-        >
-          📖 Docs
-        </a>
-      </div>
-      
-      {/* Footer Link */}
+        <div className="relative flex flex-wrap justify-center gap-4 mt-6">
+          <a
+            href="/setup/rizzz_setup.exe"
+            download="rizzz_setup.exe"
+            className="px-6 py-3 text-lg font-semibold rounded-full bg-blue-600 text-white shadow-lg transition duration-300 transform hover:scale-110 hover:bg-blue-800"
+          >
+            🚀 Download
+          </a>
+          <a
+            href="#docs"
+            className="px-6 py-3 text-lg font-semibold rounded-full bg-purple-600 text-white shadow-lg transition duration-300 transform hover:scale-110 hover:bg-purple-800"
+          >
+            📖 Docs
+          </a>
+        </div>
+        
+        {/* Footer Link */}
       <a
         href="#connect"
         className="relative inline-block underline mt-6 text-purple-400 hover:text-purple-300 transition duration-300 text-lg"
