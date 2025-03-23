@@ -112,7 +112,7 @@ function Docs() {
             <li>
               Run it:
               <div className="relative bg-gray-800 p-3 rounded-lg mt-3 flex justify-between items-center">
-                <pre className="text-green-300 text-sm overflow-auto">{`rizzz test.rizzz          # Normal mode`}</pre>
+                <pre className="text-green-300 text-sm overflow-auto">{`rizzz test.rizzz          // Normal mode`}</pre>
                 <button
                   className="bg-gray-700 px-3 py-1 text-xs rounded hover:bg-gray-600 absolute top-2 right-2"
                   onClick={() => copyToClipboard("rizzz test.rizzz")}
@@ -121,7 +121,7 @@ function Docs() {
                 </button>
               </div>
               <div className="relative bg-gray-800 p-3 rounded-lg mt-3 flex justify-between items-center">
-                <pre className="text-green-300 text-sm overflow-auto">{`rizzz test.rizzz wtfmode  # WTF mode with extra sass`}</pre>
+                <pre className="text-green-300 text-sm overflow-auto">{`rizzz test.rizzz wtfmode  // WTF mode with extra sass`}</pre>
                 <button
                   className="bg-gray-700 px-3 py-1 text-xs rounded hover:bg-gray-600 absolute top-2 right-2"
                   onClick={() => copyToClipboard("rizzz test.rizzz wtfmode")}
