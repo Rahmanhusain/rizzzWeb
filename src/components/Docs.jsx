@@ -47,11 +47,22 @@ function Docs() {
         {/* Section: Installation */}
         <section className="mt-8">
           <h2 className="text-2xl font-semibold text-blue-400 mb-4">
-            💾 Installation
+            💾 Installation (For now its available in windows only)
           </h2>
           <h3 className="text-xl font-medium text-blue-300 mt-4">
             Getting Started
           </h3>
+          <div className="mt-3">
+          <div className="rounded-lg overflow-hidden border border-gray-800">
+            <video
+              className="w-full"
+              controls
+            >
+              <source src="/setup/tutorialrizz.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
           <ol className="list-decimal list-inside mt-2 text-gray-300">
             <li>
               Download: rizzz_setup.exe from Rahman Husain (that’s me!).
@@ -66,12 +77,15 @@ function Docs() {
                   system PATH” (recommended).
                 </li>
                 <li>Click “Finish” when done.</li>
+                <li>Windows may give a security warining if occurs:</li>
+                <li>Click "More info" then "Run anyway"</li>
+                <li>For more understanding watch video tutorial.</li>
               </ul>
             </li>
             <li>
-              Restart PC:
+              Restart PC (<span className="text-red-500">Important!</span>): 
               <ul className="list-disc list-inside ml-4">
-                <li>Restart your PC (<span className="text-green-300">Important!</span>).</li>
+                <li>Restart required after installing the interpreter.</li>
               </ul>
             </li>
             <li>
